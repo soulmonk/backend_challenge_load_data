@@ -20,7 +20,7 @@ class Mongo {
 
     this.collections = {
       Patient: await this.db.collection('patient'),
-      Email: await this.db.collection('email'),
+      Email: await this.db.collection('email')
     }
   }
 
