@@ -1,0 +1,37 @@
+{
+  "name": "backend_challenge_load_data",
+  "version": "0.0.1",
+  "description": "backend challenge",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "pretest": "standard",
+    "test": "tap test/*.test.js",
+    "lint": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soulmonk/backend_challenge_load_data.git"
+  },
+  "keywords": [
+    "script",
+    "mongodb",
+    "converter"
+  ],
+  "author": "Vitalii Melnykov <fsoulmonk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soulmonk/backend_challenge_load_data/issues"
+  },
+  "homepage": "https://github.com/soulmonk/backend_challenge_load_data#readme",
+  "devDependencies": {
+    "sinon": "^9.0.0",
+    "standard": "^14.3.1",
+    "tap": "^14.10.6"
+  },
+  "dependencies": {
+    "mongodb": "^3.5.4"
+  }
+}
